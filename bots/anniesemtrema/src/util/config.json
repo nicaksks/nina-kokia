@@ -1,0 +1,9 @@
+{ 
+    "nina": {
+      "name": "anniesemtrema",
+      "prefix": "!",
+      "owner": "anniesemtrema",
+      "token": "oauth:token",
+      "canais": ["anniesemtrema"]
+    }
+}

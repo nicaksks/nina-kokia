@@ -1,0 +1,62 @@
+{
+  "patrao": {
+    "patrao": "patrao",
+    "nome": "Esse é meu patrão",
+    "link": "https://ninabot.netlify.app/files/audios/patrao.mp3"
+  },
+  "tome": {
+    "tome": "tome",
+    "nome": "Tome",
+    "link": "https://ninabot.netlify.app/files/audios/tome.mp3"
+  },
+  "ui": {
+    "ui": "ui",
+    "nome": "uiii",
+    "link": "https://ninabot.netlify.app/files/audios/ui.mp3"
+  },
+  "gatinho": {
+    "gatinho": "gatinho",
+    "nome": "Dança gatinho, dança",
+    "link": "https://ninabot.netlify.app/files/audios/gatinho.mp3"
+  },
+  "elegosta": {
+    "elegosta": "elegosta",
+    "nome": "Ele gosta",
+    "link": "https://ninabot.netlify.app/files/audios/ele_gosta.mp3"
+  },
+  "calma": {
+    "calma": "calma",
+    "nome": "Que é isso meu filho calma",
+    "link": "https://ninabot.netlify.app/files/audios/calma.mp3"
+  },
+  "delicia": {
+    "delicia": "delicia",
+    "nome": "Ai que delicia",
+    "link": "https://ninabot.netlify.app/files/audios/delicia.mp3"
+  },
+  "rapaz": {
+    "rapaz": "rapaz",
+    "nome": "Rapaz",
+    "link": "https://ninabot.netlify.app/files/audios/rapaz.mp3"
+  },
+  "fortnite": {
+    "fortnite": "fortnite",
+    "nome": "FORTINITY LA BABADJI",
+    "link": "https://ninabot.netlify.app/files/audios/fortnite.mp3"
+  },
+  "puta": {
+    "puta": "puta",
+    "nome": "Cala boca Puta",
+    "link": "https://ninabot.netlify.app/files/audios/puta.mp3"
+  },
+  "cavalo": {
+    "cavalo": "cavalo",
+    "nome": "Cavalo",
+    "link": "https://ninabot.netlify.app/files/audios/cavalo.mp3"
+  },
+  "demais": {
+    "demais": "demais",
+    "nome": "Demais - Rodrigo Faro",
+    "link": "https://ninabot.netlify.app/files/audios/demais.mp3"
+  }
+}

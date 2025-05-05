@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/script/tab.js" defer></script>
+    <script src="./assets/script/eventos.js" defer></script>
+
+    <meta name="description" content="Um bot incrível para pessoas incríveis." />
+    <meta name="theme-color" content="#FFFFFF">
+    
+    <link rel="icon" type="image/x-icon" href="./assets/images/icons/Kokia.ico">
+    <title>Kokia - Início</title>
+</head>
+<body>
+
+    <div class="eventos-container">
+        <div class="eventos-titulo">EVENTOS
+            <div class="eventos-time">Eventos desligados.</div>
+            <!--<div id="time" class="eventos-time">Carrengado...</div> -->
+        </div>
+    </div>
+    <div class="nina-container">
+        <div class="nina-sidebar">
+            <div class="nina-tab">
+                <p>Início</p>
+                <button class="nina-links" onclick="tab(event, 'inicio')" id="default">Início</button>
+                <button class="nina-links" onclick="tab(event, 'patchnotes')" id="default">Notas de Atualizações</button>
+                <hr class="nina-divisao">
+
+                <p>Funções</p>
+                <button class="nina-links" onclick="tab(event, 'custom-commands')">Comando personalizados</button>
+                <!-- <button class="nina-links" onclick="tab(event, 'channel-points')">Pontos do canal</button> -->
+                <hr class="nina-divisao">
+            </div>
+        </div> 
+    </div>
+    <div class="nina-post">
+        <div class="nina-post-title">
+            <div id="inicio" class="nina-tab-content">
+                <h4>Welcome!</h4>
+                <p>
+                    <br><a style="font-size:20px; color:#68A7AD">Hello, World!</a>
+                    <br>Seja bem-vindo(a) a documentação da Kokia <a style="color:#68A7AD">"ʕ ∗ •́ ڡ •̀ ∗ ʔ<a>
+                    <br>Essa documentação é para explicar todas as funções da Kokia para os moderadores e futuros moderadores da live <a style="color:#68A7AD">╰( ◕ ᗜ ◕ )╯</a>
+                    <br>
+                    <br><a style="font-size:20px; color:#68A7AD">ATENÇÃO!</a>
+                    <br>Kokia é um bot exclusiva para minha live na twitch. 
+                    <br>Kokia possui conexão com a Nina.
+                    <br>Caso queira fazer parte do nosso <a href="https://discord.gg/AsVWNmG" style="color:#68A7AD">Discord</a> ou da nossa <a href="https://www.twitch.tv/anniesemtrema" style="color:#68A7AD">Live</a> clique nos hyperlinks.
+                </p>
+                </div>
+
+            <div id="patchnotes" class="nina-tab-content">
+                <h4>Notas de Atualizações</h4>
+                <p>
+                    Aqui será postado todas as notas de atualizações que eu fizermos na <a style="color:#68A7AD">nina</a>.
+                    <br><a style="color:#68A7AD">[+]</a> - Adicionado | <a style="color:#68A7AD">[-]</a> Removido | <a style="color:#68A7AD">[Fix]</a> - Corrigido
+                    <br>
+                    <br><u><a style="font-size:20px; color:#68A7AD">10/09/2022</a></u>
+                    <br><a style="color:#68A7AD">[+]</a> Adicionado a documentação da <a style="color:#68A7AD">Kokia</a>.
+                    <br><u><a style="font-size:20px; color:#68A7AD">30/09/2022</a></u>
+                    <br>Nota de Atualizações foi movido para o sistema de fórum do <a style="color:#68A7AD">Discord</a>.
+                </p>
+                </div>
+
+                <div id="custom-commands" class="nina-tab-content">
+                    <h4>Comandos personalizados</h4>
+                    <p>
+                        Os comandos só pode ser criados por <a style="color:#68A7AD">moderadores</a>.
+                        <br>
+                        <br><a style="color:#68A7AD">COMANDOS</a>
+                        <br>Para criar um comando você vai usar: <a style="color:#68A7AD">!command add [nome] [descrição]</a>
+                        <br>Para editar um comando você vai usar: <a style="color:#68A7AD">!command edit [nome] [descrição]</a>
+                        <br>Para deletar um comando você vai usar: <a style="color:#68A7AD">!command delete [nome]</a>
+                        <br>
+                        <br>Use <a style="color:#68A7AD">!comandos</a> para ver a lista dos comandos.
+                        <br>
+                        <br><a style="color:#68A7AD">VARIÁVEL DISPONÍVEL</a>
+                        <br>Kokia possui algumas variáveis para serem colocada nos comandos.
+                        <br>
+                        <br><a style="color:#68A7AD">(_count_)</a> - é a variável de contagem. Sempre que um comando que possui essa variável for executado, será adicionado <a style="color:#68A7AD">+1</a> no contador.
+                        <br>
+                        <br><a style="color:#68A7AD">!command add teste - Nica deu sorte no RNG (_count_) veze(s).</a>
+                        <br>!teste - Nica deu sorte no RNG 1 veze(s).   
+
+                    </p>
+                </div>
+                <div id="channel-points" class="nina-tab-content">
+                    <h4>Pontos do canal</h4>
+                    <p>
+                        As recompensas do canal são entregue de forma automática para os viewers.
+                    </p>
+                </div>
+            </div>
+      </div> 
+</body>
+</html>

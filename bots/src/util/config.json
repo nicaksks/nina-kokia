@@ -1,0 +1,29 @@
+{ 
+    "nina": [{
+      "token": "discord-token",
+      "prefix": "!",
+      "customPrefix": "+",
+      "guildId": "737035994494140517",
+      "clientId": "922516333516685422"
+    }],
+    "sub": [{
+      "role": "924407102036934706"
+    }],
+    "cdn": [{
+      "url": "https://ninabot.netlify.app/files/uploads/"
+    }],
+    "twitch": [{
+      "botName": "KokiaBot",
+      "twitchToken": "oauth:token"
+    }],
+    "autoRole":[{
+      "role": "737046381205651530",
+      "welcome": "737035995400241164",
+      "hi": "922510152345735168"
+    }],
+    "nivelamento": [{
+      "maxLevel": 100,
+      "maxExperience": 600000,
+      "experience": 600
+    }]
+}

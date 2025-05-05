@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/script/tab.js" defer></script>
+    <script src="./assets/script/eventos.js" defer></script>
+
+    <meta name="description" content="Um bot incrível para pessoas incríveis." />
+    <meta name="theme-color" content="#FFFFFF">
+    
+    <link rel="icon" type="image/x-icon" href="./assets/images/icons/nina.ico">
+    <title>nina - Início</title>
+</head>
+<body>
+
+    <div class="eventos-container">
+        <div class="eventos-titulo">EVENTOS
+            <div class="eventos-time">Eventos desligados.</div>
+            <!--<div id="time" class="eventos-time">Carrengado...</div> -->
+        </div>
+    </div>
+    <div class="nina-container">
+        <div class="nina-sidebar">
+            <div class="nina-tab">
+                <p>Início</p>
+                <button class="nina-links" onclick="tab(event, 'inicio')" id="default">Início</button>
+                <button class="nina-links" onclick="tab(event, 'patchnotes')" id="default">Notas de Atualizações</button>
+                <hr class="nina-divisao">
+
+                <p>Funções</p>
+                <button class="nina-links" onclick="tab(event, 'auto-role')">Auto role</button>
+                <button class="nina-links" onclick="tab(event, 'bem-vindo')">Bem-vindo</button>
+                <button class="nina-links" onclick="tab(event, 'tts')">TTS</button>
+                <button class="nina-links" onclick="tab(event, 'mural-da-vergonha')">Mural da Vergonha</button>
+                <button class="nina-links" onclick="tab(event, 'sorteio')">Sorteio</button>
+                <button class="nina-links" onclick="tab(event, 'reaction')">Reação</button>
+                <button class="nina-links" onclick="tab(event, 'create-room')">Sala de Voz</button>
+                <button class="nina-links" onclick="tab(event, 'twitch')">Twitch (Divulgação)</button>
+                <button class="nina-links" onclick="tab(event, 'cargos')">Cargo por botão</button>
+                <button class="nina-links" onclick="tab(event, 'economia')">Economia</button>
+                <button class="nina-links" onclick="tab(event, 'url-fix')">Url Fix</button>
+                <button class="nina-links" onclick="tab(event, 'boost')">Vantagens (Boost)</button>
+                <button class="nina-links" onclick="tab(event, 'nivelamento')">Nivelamento</button>
+                <button class="nina-links" onclick="tab(event, 'multi-chat')">Multi-chat</button>
+                <button class="nina-links" onclick="tab(event, 'custom-command')">Comando personalizados</button>
+                <button class="nina-links" onclick="tab(event, 'server-boost')">Server Boost</button>
+                <button class="nina-links" onclick="tab(event, 'birthday')">Aniversariante</button>
+                <button class="nina-links" onclick="tab(event, 'ban')">Banimento</button>
+                <button class="nina-links" onclick="tab(event, 'newMOD')">Moderadores</button>
+                <button class="nina-links" onclick="tab(event, 'leave')">Saida</button>
+                <hr class="nina-divisao">
+
+                <p>Eventos</p>
+                <button class="nina-links" onclick="tab(event, 'quiz')">Quiz</button>
+                <button class="nina-links" onclick="tab(event, 'cartas-waifu')">Cartas (Waifu)</button>
+                <button class="nina-links" onclick="tab(event, 'meiji-vs-jp')">Meiji vs JP</button>
+                <hr class="nina-divisao">
+
+                <p>Mini-games</p>
+                <button class="nina-links" onclick="tab(event, 'duelar')">Duelar</button>
+                <button class="nina-links" onclick="tab(event, 'bet')">Apostar</button>
+                <button class="nina-links" onclick="tab(event, 'guess')">Adivinhe o personagem</button>
+            </div>
+        </div> 
+    </div>
+    <div class="nina-post">
+        <div class="nina-post-title">
+            <div id="inicio" class="nina-tab-content">
+                <h4>Welcome!</h4>
+                <p>
+                    <br><a style="font-size:20px; color:#68A7AD">Hello, World!</a>
+                    <br>Seja bem-vindo(a) a documentação da Nina <a style="color:#68A7AD">"ʕ ∗ •́ ڡ •̀ ∗ ʔ<a>
+                    <br>Essa documentação é para explicar todas as funções da Nina para os membros do nosso Discord <a style="color:#68A7AD">╰( ◕ ᗜ ◕ )╯</a>
+                    <br>
+                    <br><a style="font-size:20px; color:#68A7AD">ATENÇÃO!</a>
+                    <br>Nina é um bot exclusiva para os membros do meu Discord e da minha live.
+                    <br>Caso queira fazer parte do nosso <a href="https://discord.gg/AsVWNmG" style="color:#68A7AD">Discord</a> ou da nossa <a href="https://www.twitch.tv/anniesemtrema" style="color:#68A7AD">Live</a> clique nos hyperlinks.
+                </p>
+                </div>
+
+            <div id="patchnotes" class="nina-tab-content">
+                <h4>Notas de Atualizações</h4>
+                <p>
+                    Aqui será postado todas as notas de atualizações que eu fizermos na <a style="color:#68A7AD">nina</a>.
+                    <br><a style="color:#68A7AD">[+]</a> - Adicionado | <a style="color:#68A7AD">[-]</a> Removido | <a style="color:#68A7AD">[Fix]</a> - Corrigido
+                    <br>
+                    <br><u><a style="font-size:20px; color:#68A7AD">01/09/2022</a></u>
+                    <br><a style="color:#68A7AD">[+]</a> Adicionado o comando <a style="color:#68A7AD">!comandos</a> para visualizar a lista de comandos com <a style="color:#68A7AD">prefix</a>.
+                    <br><a style="color:#68A7AD">[+]</a> Adicionado <a style="color:#68A7AD">Sobre mim</a> ao clicar na <a style="color:#68A7AD">nina</a> no Discord. 
+                    <br>
+                    <br><a style="color:#68A7AD">[-]</a> Os mini-games foram <a style="color:#68A7AD">desativados</a>.
+                    <br>
+                    <br><a style="color:#68A7AD">[Fix]</a> A embed de divulgação agora mostra o número exatado de quantos viewers estão na live, em vez de mostrar <a style="color:#68A7AD">anniesemtrema está offline</a>.
+                    <br><a style="color:#68A7AD">[Fix]</a> Agora o sistema de nivelamente não vai mostrar que o membro <a style="color:#68A7AD">upo 2x para o nível 1</a>.
+                    <br><a style="color:#68A7AD">[Fix]</a> Agora a mensagem que aparece no chat <a style="color:#68A7AD">ʕ·ᴥ·ʔ┊comandos</a> vai mostrar o seu nível correto, em vez de mostrar um nível anterior.
+                    <br> L <a style="color:#889ECE">EXEMPLO:</a> <a style="color:#68A7AD">nica subiu para o nível 2</a>. Porém o nível que era para aparecer era <a style="color:#68A7AD">nica subiu para o nível 3</a>.
+                    <br>
+<br><u><a style="font-size:20px; color:#68A7AD">10/09/2022</a></u>
+                    <br><a style="color:#68A7AD">[+]</a> Adicionado um sistema para quando um novo <a style="color:#68A7AD">moderador</a> entrar na equipe.
+                    <br><a style="color:#68A7AD">[+]</a> Adicionado um sistema que toda vez que <a style="color:#68A7AD">nina</a> entrar em um servidor, ela vai quitar.
+                    <br>O motivo é para eu deixar a <a style="color:#68A7AD">nina</a> pública pra testar as novas funções do discord.
+                    <br>
+                    <br><u><a style="font-size:20px; color:#68A7AD">12/09/2022</a></u>
+                    <br><a style="color:#68A7AD">[+]</a> Adicionado um mini-game de <a style="color:#68A7AD">aposta</a>.
+                    <br>
+                    <br><u><a style="font-size:20px; color:#68A7AD">19/09/2022</a></u>
+                    <br><a style="color:#68A7AD">[+]</a> Adicionado o mini-game <a style="color:#68A7AD">Adivinhe o personagem</a>.
+                    <br>
+                    <br><u><a style="font-size:20px; color:#68A7AD">30/09/2022</a></u>
+                    <br>Nota de Atualizações foi movido para o sistema de fórum do <a style="color:#68A7AD">Discord</a>.
+                </p>
+                </div>
+
+                <div id="auto-role" class="nina-tab-content">
+                    <h4>Bem-vindo</h4>
+                    <p>
+                    Ao entrar no servidor o membro automaticamente recebe o cargo <a style="color:#68A7AD">✦ ❝ ઇ Convidados⸝⸝ ۰ ⸼  ✦</a>.</p>
+                </div>
+                <div id="bem-vindo" class="nina-tab-content">
+                    <h4>Auto Role</h4>
+                    <p>
+                    Ao entrar no servidor a Nina enviarar uma mensagem no canal<a style="color:#68A7AD"> ʅ-ʕ•ᴥ•ʔ-ʃ┊logs</a> juntamente com uma Embed. 
+                    <br>Nessa Embed é possível que membro que entrou no servidor Acenar para os membros antigos, clicando no botão <a style="color:#68A7AD">Acene para dizer olá</a>
+                    <br>A mensagem vai aparecer no canal <a style="color:#68A7AD">ʕ-•ᴥ•ʔ┊bate-papo</a> 
+                    <br><img src="./assets/images/others/welcome.png"><img src="./assets/images/others/hello.png"></p>
+                </div>
+                <div id="tts" class="nina-tab-content">
+                    <h4>TTS</h4>
+                    <p>
+                        Para os usuários que tem problemas auditivos temos um sistema de <a style="color:#68A7AD">TTS<a/> próprio.
+                        <br>Esse recurso foi programado para ajudar as pessoas portadores de deficiência auditiva, visando melhorar a comunicação.
+                        <br>
+                        Para usar o comando <a style="color:#68A7AD">!tts<a/> é necessário ter o cargo <a style="color:#68A7AD">✦ ❝ ઇ TTS ⸝⸝ ۰ ⸼<a/> 
+                        <br>depois que você tiver o cargo vá até a sala <a style="color:#68A7AD">＾▿＾┊tts<a/> é digite: <a style="color:#68A7AD">!tts [mensagem]<a/>
+                        <br>Você vai ter a opção de mandar o áudito em <a style="color:#68A7AD">Português<a/> ou <a style="color:#68A7AD">Inglês<a/>.
+                        <br><img src="./assets/images/others/tts.png">
+                    </p>
+                </div>
+                <div id="mural-da-vergonha" class="nina-tab-content">
+                    <h4>Mural da Vergonha</h4>
+                    <p>
+                        Você viu algum membro do nosso Discord fazendo algo vergonho? 
+                        <br>Reaja com <img src="./assets/images/others/peepoChomky.png" width="35" height="35"> <a style="color:#68A7AD">(peepoChomky)<a>, caso tenha 3 reações a nina vai puxar as informações da mensagem e vai mandar no canal <a style="color:#68A7AD">•‿•-mural-•‿•<a/>
+                        <br><img src="./assets/images/others/mural-da-vergonha.png">
+                    </p>
+                </div>
+                <div id="sorteio" class="nina-tab-content">
+                    <h4>Sorteio</h4>
+                    <p>
+                        Participe dos Sorteio e tenha a chance de ganhar recompensas, talvez até alguns <a style="color:#68A7AD">NP Event</a> 
+                        <br>Para participar dos Sorteios é necessário que você pegue o cargo <a style="color:#68A7AD">Eternal Return</a> que fica na sala <a style="color:#68A7AD">ˏˋ♥̩̥̩-⑅sorteio⑅-♥̩̩ˊˎ</a>.
+                        <br>Depois que você pega o cargo, automaticamente você já está participando dos Sorteios do servidor.
+                        <br>Caso você vá na sala <a style="color:#68A7AD">ˏˋ♥̩̥̩-⑅sorteio⑅-♥̩̩ˊˎ</a> você consegue ver quantas pessoas estão participando.
+                        <br><img src="./assets/images/others/sorteio-em-andamento.png" width="460" height="215">
+                        <br>
+                        <br><a style="color:#68A7AD">Mensagem que aparece quando alguém ganha algum Sorteio no servidor.<a>
+                        <br><img src="./assets/images/others/sorteio.png" width="300" height="210">
+                    </p>
+                </div>
+                <div id="reaction" class="nina-tab-content">
+                    <h4>Reação</h4>
+                    <p>
+                        Sistema de Reação para recomendação de Anime.
+                        <br>Quer recomendar um Anime divertido para assistimos em Live?
+                        <br>Vá até o canal <a style="color:#68A7AD">ヾ☆▽☆-anime</a>.
+                        <br>Assim que você adicionar as informações do Anime, a nina vai reagir sua mensagem, os animes mais votados a gente vai assistir em Live.
+                        <br><img src="./assets/images/others/reaction.png" width="680">
+                    </p>
+                </div>
+                <div id="create-room" class="nina-tab-content">
+                    <h4>Sala de Voz</h4>
+                    <p>
+                        Crie uma sala de Voz personalidade com até 4 Slot para jogar Cobalt Protocol com os seus amigos.
+                        <br>Para criar uma sala personalidade é necessário que você entre no canal de voz chamado <a style="color:#68A7AD">
+                        <br>✦ ❝ ઇ CP - Sala ⸝⸝ ۰ ⸼</a> 
+                        <br>Assim que você entrar, a sua sala personalidade será criada e você já pode chamar os seus amigos para jogar aquele Cobalt Protocol em call.
+                        <br><img src="./assets/images/others/create-room.png">
+                        <br>
+                        <br>Uma mensagem também será enviada para o seu privado, confirmado que a sala foi criada com sucesso.
+                        <br><img src="./assets/images/others/create-room1.png">
+                    </p>
+                </div>
+                <div id="twitch" class="nina-tab-content">
+                    <h4>Twitch (Divulgação)</h4>
+                    <p>
+                        A cada 5 minutos a nina checka na API da Twitch se estou online ou offline, caso eu esteja online
+                        será enviada uma EMBED no canal <a style="color:#68A7AD">ᵔᴥᵔ┊lives</a> e será notificado os membros que tiverem o cargo <a style="color:#68A7AD">✦ ❝ ઇ Notificações da Live⸝⸝ ۰ ⸼</a>. 
+                        <br>Caso queira saber quando eu estiver online vá até a sala <a style="color:#68A7AD">ʕ✖﹏✖ʔ┊regras</a> e pegue o cargo 
+                        <br><a style="color:#68A7AD">✦ ❝ ઇ Notificações da Live⸝⸝ ۰ ⸼</a>
+                        <br><img src="./assets/images/others/twitch.png">
+                    </p>
+                </div>
+                <div id="cargos" class="nina-tab-content">
+                    <h4>Cargos por botão</h4>
+                    <p>
+                        Vá a até a sala <a style="color:#68A7AD">ʕ✖﹏✖ʔ┊regras</a> e seleciona um dos cargos para ficar por dentro das notícias do <a style="color:#68A7AD">Eternal Return</a> ou para ficar pode dentro das <a style="color:#68A7AD">Notificações da Live</a>.
+                        <br><img src="./assets/images/others/regras.png">
+                    </p>
+                </div>
+                <div id="economia" class="nina-tab-content">
+                    <h4>Economia</h4>
+                    <p>
+                        O sistema de Economia do servidor atualmente é baseado em 5 moedas.
+                        <br><img src="./assets/images/others/key.png" width="20" height="20"> <a style="color:#68A7AD">Chaves</a> - As chaves você pode obter subindo de nível ou acertando as respostas do mini-game Quiz.
+                        <br>Com as Chaves você pode abrir Baú misterioso e ganhar recompensas.
+                        <br>
+                        <br><img src="./assets/images/others/stars.png" width="20" height="20"> <a style="color:#68A7AD">Estrelas</a> - As estrelas você consegue obter subindo de nível, pegando recompensa diária, acertando as respostas do mini-game Quiz e muito mais.
+                        <br>
+                        <br><img src="./assets/images/others/np.png" width="20" height="20"> <a style="color:#68A7AD">NP</a> - O NP é uma moeda do sistema de Cartas/Waifu, você consegue NP pegando cartas de outros usuários, em vez de você pega a carta, você recebe o NP como bonificação por ter aparecido uma carta que já é de outro usuário.
+                        <br>
+                        <br><img src="./assets/images/others/acoin.png" width="20" height="20"> <a style="color:#68A7AD">A-coin</a> - Cada carta possui uma quantidade de A-coin e esses A-coin você consegue pegando das cartas. Cada tier de carta possui uma quantidade de A-coin diferente.
+                        <br>
+                        <br><img src="./assets/images/others/ea.png" width="20" height="20"> <a style="color:#68A7AD">EA</a> - Essência Azul é a moeda da nossa live chamada de Channel Points (Pontos do canal). Você recebe EA com tempo online no chat. Com os EA você pode comprar alguns itens.
+                    </p>
+                </div>
+                <div id="url-fix" class="nina-tab-content">
+                    <h4>Url Fix</h4>
+                    <p>
+                        Quando algum membro enviar uma URL do Twitter ou do Tiktok em baixo da EMBED vai aparecer um <a style="color:#68A7AD">Band-aid</a> e quando o autor da mensagem clicar no <a style="color:#68A7AD">Band-aid</a> o bot vai excluir a mensagem do autor e vai adicionar o <a style="color:#68A7AD">vx</a> na URL.
+                        <br>Caso a pessoa não queira colocar o <a style="color:#68A7AD">vx</a> na mensagem o <a style="color:#68A7AD">Band-aid</a> irá desaparecer depois de 1 minuto.
+                        <br><img src="./assets/images/others/url-fix.png" width="350" height="350">
+                        <img src="./assets/images/others/url-fix1.png" width="350" height="350">
+                    </p>
+                </div>
+                <div id="boost" class="nina-tab-content">
+                    <h4>Vantanges (Boost)</h4>
+                    <p>
+                        Os membros que forem <a style="color:#68A7AD">SUBS</a> tem vantagens nos <a style="color:#68A7AD">Mini-games, Sistema de Nívelamento e Economia</a> todas as recompensas serão dobradas até que o <a style="color:#68A7AD">SUB</a> acabe.
+                        <br>Você pode verificar se você possui <a style="color:#68A7AD">SUBS</a> olhando seu perfil no comando <a style="color:#68A7AD">/perfil</a>
+                        <br>
+                        COM SUB
+                        <br><img src="./assets/images/others/boost.png" width="250" height="250">
+                        <br>
+                        SEM SUB
+                        <br><img src="./assets/images/others/boost1.png" width="250" height="250">
+                    </p>
+                </div>
+                <div id="nivelamento" class="nina-tab-content">
+                    <h4>Nivelamento</h4>
+                    <p>
+                        Nível máximo do servidor atualmente é <a style="color:#68A7AD">100</a>
+                        <br>Todos os usuário começam no nível <a style="color:#68A7AD">1</a>
+                        <br>Caso um membro esteja <a style="color:#68A7AD">BOOSTADO</a> ele vai receber experiência em dobro, caso o usuário upe de nível ele vai receber <a style="color:#68A7AD">Estrelas e Chaves</a>  em dobro.
+                        <br>
+                        <br>Formula de experiência: <a style="color:#68A7AD">nível atual * 600</a>
+                        <br>O usuário recebe <a style="color:#68A7AD">15~25</a> de experiência por minuto.
+                        <br>
+                        <br>Quando algum usuário upar de nível a <a style="color:#68A7AD">nina</a> vai avisar o usuário no canal <a style="color:#68A7AD">ʕ·ᴥ·ʔ┊comandos</a>
+                        <br>Os usuários podem ver sua barra de experiência, experiência atual, experiência que falta e porcentagem do level atual. Para verificar bata usar o comando <a style="color:#68A7AD">/perfil</a>
+                        <br><img src="./assets/images/others/nivelamento.png" width="250" height="250">
+                        <img src="./assets/images/others/nivelamento1.png">
+                    </p>
+                </div>
+                <div id="multi-chat" class="nina-tab-content">
+                    <h4>Multi-chat</h4>
+                    <p>
+                        Os membros do nosso <a style="color:#68A7AD">Discord</a> agora podem visualizar e conversar com o chat da nossa <a style="color:#68A7AD">Twitch</a> sem precisar entrar na live.
+                        <br>Vá até a sala <a style="color:#68A7AD">ଘ੭ˊ꒳ˋ੭✧┊twitch</a> e mande uma mensagem, essa mensagem será enviada para o chat da <a style="color:#68A7AD">Twitch</a> através da <a style="color:#68A7AD">nina</a>.
+                        <br>Nesse mesmo chat você pode visualizar as mensagens do pessoal da nossa <a style="color:#68A7AD">Twitch</a>.
+                        <br>
+                        <br><a style="color:#68A7AD">Enviado</a> - Mensagem que foi enviada do Discord para Twitch.
+                        <br><a style="color:#68A7AD">Recebido</a> - Mensagem que foi enviada da Twitch para o Discord.
+                        <br><img src="./assets/images/others/chat.png">
+                        <img src="./assets/images/others/chat1.png" width="650" height="500">
+                    </p>
+                </div>
+                <div id="custom-command" class="nina-tab-content">
+                    <h4>Comando personalizados.</h4>
+                    <p>
+                        Agora os membros do servidor tem permissão para criar <a style="color:#68A7AD">comandos personalizados.</a>
+                        <br>Cada comando custa <a style="color:#68A7AD">20 Estrelas</a>. Apenas será descontado na criação do comando. <br>Para editar ou deletar o comando será totalmente de graça. 
+                        <br>
+                        <br>Os comandos da comunidade não vão usar a mesma prefix da <a style="color:#68A7AD">nina</a> que no caso são <a style="color:#68A7AD">! ou /</a>.
+                        <br>Os comandos da comunidade vão ser uma prefix própria que vai ser <a style="color:#68A7AD">+</a>
+                        <br>Cada membro pode criar apenas <a style="color:#68A7AD">1 comando</a> e membros <a style="color:#68A7AD">BOOSTADOS</a> vão poder criar <a style="color:#68A7AD">2 comandos</a>.
+                        <br>
+                        <br><a style="color:#68A7AD">COMANDOS</a>
+                        <br>Para criar um comando você vai usar: <a style="color:#68A7AD">!command add [nome] [descrição]</a>
+                        <br>Para editar um comando você vai usar: <a style="color:#68A7AD">!command edit [nome] [descrição]</a>
+                        <br>Para deletar um comando você vai usar: <a style="color:#68A7AD">!command delete [nome]</a>
+                        <br>Use <a style="color:#68A7AD">+comandos</a> para ver a lista dos comandos da comunidade.
+                    </p>
+                </div>
+                <div id="server-boost" class="nina-tab-content">
+                    <h4>Server Boost</h4>
+                    <p>
+                        Impulsione o servidor é receba recompensas por ajudar o servidor a crescer <a style="color:#68A7AD">╰། ◉ ◯ ◉ །╯</a>
+                        <br>
+                        <br>Membros sem <a style="color:#68A7AD">BOOST</a> vão receber <a style="color:#68A7AD">2 Chaves</a> <a style="color:#68A7AD">2 Estrelas</a> e <a style="color:#68A7AD">200 pontos de experiência</a>.
+                        <br>Membros <a style="color:#68A7AD">BOOSTADOS</a> vão receber <a style="color:#68A7AD">3 Chaves</a> <a style="color:#68A7AD">3 Estrelas</a> e <a style="color:#68A7AD">300 pontos de experiência</a>.
+                        <br>Ambos os tipo de membros vão receber uma mensagem fofinha no canal <a style="color:#68A7AD">･-｡ﾟ☆━੧༼-•́-ヮ-•̀-༽୨</a> em forma de agradecimento por ajudar o nosso servidorzinho.          
+                    </p>
+                </div>
+                <div id="birthday" class="nina-tab-content">
+                    <h4>Aniversariante</h4>
+                    <p>
+                        Adicione sua data de aniversário para todo mundo do servidor comemorar essa data histórica.
+                        <br>Os membros que estiverem fazendo aniversário vão aparecer no canal <a style="color:#68A7AD">୧ʕ•̀ᴥ•́ʔ୨┊aniversário</a>
+                        <br>Os aniversariantes vão receber <a style="color:#68A7AD">15 Estrelas, 5 Chaves, 1000 Pontos de Experiência</a> e o cargo <a style="color:#68A7AD">🎈🍰🥳🍰🎈</a> durante 24 horas.
+                        <br>
+                        <br>A <a style="color:#68A7AD">nina</a> vai divulgar a lista dos <a style="color:#68A7AD">aniversariantes</a> sempre <a style="color:#68A7AD">meia noite</a>.
+                        <br>Configure sua <a style="color:#68A7AD">data de aniversário</a> agora!
+                        <br>
+                        <br>
+                        <a style="color:#68A7AD">COMANDOS</a>
+                        <br>!aniversario set xx/xx/xxxx
+                        <br>Exemplo: <a style="color:#68A7AD">!aniversario set 21/01/1999</a>
+                        <br>!aniversario list - Visualizar a lista de aniversáriante.
+                        <br>
+                        <br>
+                        <a style="color:#68A7AD">AVISO</a>
+                        <br>Não é possível alterar sua <a style="color:#68A7AD">data de aniversário</a> depois de setada.
+                        <br>Antes de enviar o comando verifique se sua <a style="color:#68A7AD">data de aniversário</a> está certa.
+                    </p>
+                </div>
+                <div id="ban" class="nina-tab-content">
+                    <h4>Banimento</h4>
+                    <p>
+                        Agora se algum usuário fizer algum besteira usando os comandos da <a style="color:#68A7AD">nina</a> e possível que usuário tome ban dos comandos da <a style="color:#68A7AD">nina</a>.
+                        <br>O banimento afetara apenas os comandos que tem relação com o <a style="color:#68A7AD">banco de dados da nina</a>.
+                        <br><img src="./assets/images/others/ban.png">
+                    </p>
+                </div>
+                <div id="newMOD" class="nina-tab-content">
+                    <h4>Moderação</h4>
+                    <p>
+                        Agora quando um novo moderador entrar na equipe a <a style="color:#68A7AD">nina</a> irá enviar uma mensagem na <a style="color:#68A7AD">DM</a> do novo moderador.
+                        <br>Caso a pessoa tenha a <a style="color:#68A7AD">DM</a> bloqueada, a mensagem será enviada no <a style="color:#68A7AD">chat da moderação</a>.
+                        <br><img src="./assets/images/others/newMOD.png">
+                    </p>
+                </div>
+                <div id="leave" class="nina-tab-content">
+                    <h4>Saida</h4>
+                    <p>
+                        <a style="color:#68A7AD">nina</a> está pública para realizr uns testes em relação as novas funções do discord.
+                        <br>Com isso toda vez que tentarem adicionar a <a style="color:#68A7AD">nina</a> em um servidor não selacionado ela será removida automaticamente.
+                        <br><img src="./assets/images/others/leave.png">
+                    </p>
+                </div>
+                <div id="quiz" class="nina-tab-content">
+                    <h4>Quiz</h4>
+                    <p>
+                        As perguntas vão começar aparecer das <a style="color:#68A7AD">10h da manhã (Horário de Brasília)</a> até ás <a style="color:#68A7AD"> 12:00h da noite (Horário de Brasília)</a>
+                        <br>As perguntas são aleatórias. Caso você responda com a resposta certa você vai ganhar uma quantidade de <a style="color:#68A7AD">Chaves</a> e <a style="color:#68A7AD">Estrelas</a>. Caso você esteja boostado você vai receber o dobro.
+                        <br>Você pode verificar quantas <a style="color:#68A7AD">Estrelas</a> você possui ou quantas perguntas você acertou usando o comando <a style="color:#68A7AD">/perfil</a>
+                    </p>
+                </div>
+                <div id="cartas-waifu" class="nina-tab-content">
+                    <h4>Cartas (Waifu)</h4>
+                    <p>
+                        O sistemas de <a style="color:#68A7AD">Cartas (Waifu)</a> do nosso servidor funciona igual o <a style="color:#68A7AD">Mudae</a>, porém em nosso servidor as <a style="color:#68A7AD">Cartas</a> vão aparecer <a style="color:#68A7AD">20:45</a> (Horário de Brasília) no chat <a style="color:#68A7AD">ʕ-•ᴥ•ʔ┊bate-papo</a>
+                        <br>A primeira pessoa que clicar no botão com o <a style="color:#68A7AD">coração</a> vai conquistar a carta.
+                        <br>Caso a carta apareça novamente, em vez de aparecer o botão com o <a style="color:#68A7AD">coração</a>, vai aparecer um botão com a quatidade de <a style="color:#68A7AD">NP</a>.
+                        <br>As cartas possui <a style="color:#68A7AD">status</a> que serão usados para um sistema de batalha no futuro.
+                        <br><img src="./assets/images/others/cartas-waifu.png" width="250" height="400">
+                        <br>
+                        <br><a style="color:#68A7AD">COMANDOS</a>
+                        <br><a style="color:#68A7AD">/colecao</a> - Verificar sua coleção de cartas;
+                        <br><a style="color:#68A7AD">/negociar [usuário]</a> - Negociar suas cartas com outros usuários do nosso servidor;
+                        <br><a style="color:#68A7AD">/db [procurar] [personagem]</a> - Procurar informações de um personagem especifico;
+                    </p>
+                </div>
+                <div id="duelar" class="nina-tab-content">
+                    <h4>Duelar</h4>
+                    <p>
+                        Aposte suas <a style="color:#68A7AD">Estrelas</a> em um <a style="color:#68A7AD">1v1</a> de verdade contra seus amigos ou inimigos.
+                        <br>Para chamar um amigo(a) para um <a style="color:#68A7AD">duelo</a> é necessário que você e seu amigo(a) tenha pelo menos uma <a style="color:#68A7AD">estrela</a>.
+                        <br>Para chama para o duelo basta usar o seguinte comanado: 
+                        <br><a style="color:#68A7AD">/duelar [usuário] [quantidade-de-estrelas]</a>.
+                        <br>Depois isso seu amigo(a) tem que aceitar o seu pedido de <a style="color:#68A7AD">1v1</a>, depois que aceitar a porradarinha vai começar!
+                        Nesse <a style="color:#68A7AD">mini-game</a> apenas a <a style="color:#68A7AD">experiência</a> é <a style="color:#68A7AD">BOOSTADA</a>.
+                        <br><img src="./assets/images/others/duelar.png" width="400" height="200">
+                        <img src="./assets/images/others/duelar1.png" width="300" height="300">
+                        <img src="./assets/images/others/duelar2.png" width="300" height="250">
+                        <br>
+                    </p>
+                </div>
+                <div id="meiji-vs-jp" class="nina-tab-content">
+                    <h4>Meiji vs JP</h4>
+                    <p>
+                        Ajude o <a style="color:#68A7AD">JP</a> invadir o painel de controle para vocês conseguirem escapar da Ilha de Lumia.
+                        <br>
+                        <br>Horário do Evento
+                        <br><a style="color:#68A7AD">17:30</a>
+                        <br>
+                        <br>Sobre o mini-game
+                        <br>As recompensas são baseado na quantidade de jogadores.
+                        <br>As recompensas são <a style="color:#68A7AD">Estrelas</a> e <a style="color:#68A7AD">Experiência</a>.
+                        <br>A recompensa em <a style="color:#68A7AD">Estrelas</a> começa em <a style="color:#68A7AD">5</a> e a <a style="color:#68A7AD">Experiência</a> em <a style="color:#68A7AD">100</a>
+                        <br>Cada jogador aumenta a <a style="color:#68A7AD">Estrelas</a> em <a style="color:#68A7AD">+1</a> e a <a style="color:#68A7AD">Experiência</a> em <a style="color:#68A7AD">+10</a>
+                        <br>A chance de ganhar também vai aumentar conforme a quantidade de jogadores. 
+                        <br>a <a style="color:#68A7AD">%</a>  para vencer começa em <a style="color:#68A7AD">40%</a> 
+                        <br>
+                        <br>Quando a EMBED aparecer no chat <a style="color:#68A7AD">ʕ-•ᴥ•ʔ┊bate-papo</a> os membros do nosso Discord vão ter <a style="color:#68A7AD">5 minutos</a> para entrar no mini-game. Depois disso a sala será fechada e o Mini-game irá começar.
+                        <br>
+                        <br>Jogadores <a style="color:#68A7AD">BOOSTADO</a> vão receber o dobro de recompensa.
+                    </p>
+                    </div>
+                <div id="bet" class="nina-tab-content">
+                    <h4>Apostar</h4>
+                    <p>
+                        Agora quando tiver tendo campeonatos e o time do <a style="color:#68A7AD">Brasil</a> estiver participando, a gente vai abrir as <a style="color:#68A7AD">apostas</a> no servidor.
+                        <br>Para participar é necessário digitar <a style="color:#68A7AD">!apostar [time] [quantidade-de-estrelas]</a>.
+                        <br>Sempre que houver uma <a style="color:#68A7AD">aposta</a> rolando, vai ser mostrada no chat <a style="color:#68A7AD">ʕ-•ᴥ•ʔ┊bate-papo</a>
+                        <br>
+                        <br><a style="color:#68A7AD">COMANDOS</a>
+                        <br>Comando para apostar: <a style="color:#68A7AD">!apostar [time] [quantidade-de-estrelas]</a>
+                        <br>Comando para ver a tabela atual: <a style="color:#68A7AD">!tabela</a>
+                    </p>
+                </div>
+                <div id="guess" class="nina-tab-content">
+                    <h4>Adivinhe o personagem</h4>
+                    <p>
+                        Adivinhe o personagem diariamente é receba recompensas.
+                        <br>Para cada usuário o sistema manda um personagem novo.
+                        <br>Se um usuário acertou o personagem o contador vai mandar um novo personagem novo dentro de <a style="color:#68A7AD">24 horas</a> a partir do momento em que o usuário acertou.
+                        <br>Para participar use o comando <a style="color:#68A7AD">/adivinhe <personagem></a> para começar.
+                        <br>
+                        <img src="./assets/images/others/guess1.png" width="400" height="300">
+                        <img src="./assets/images/others/guess2.png" width="400" height="300">
+                    </p>
+                </div>
+            </div>
+      </div> 
+</body>
+</html>
